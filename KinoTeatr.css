@@ -1,21 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
     background-color: #621402;
     font-family: "Roboto";
-
-    min-height: 200vh;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    
-
-    background-image: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%),
-        url('../Ryabov-Polycow2.0/images/bg.png');
-
+    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url('images/bg.png') #621402;
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
 }
 
 .container {
@@ -25,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+
     box-sizing: border-box;
 }
 
@@ -72,9 +63,6 @@ body {
 
 /* ------------------------------------------------^^^^^^^Header^^^^^^^ */
 
-
-
-
 .text1 {
     margin-top: 90px;
     font-size: 24px;
@@ -84,17 +72,19 @@ body {
 
     opacity: 50%;
 
-    color:white;
+    color: white;
 }
+
 .text2 {
     margin-top: 11px;
     font-size: 36px;
 
-    color:white;
+    color: white;
 }
+
 .text3 {
     font-size: 16px;
-    color:white;
+    color: white;
 
     line-height: 150%;
 }
@@ -123,28 +113,33 @@ body {
     display: flex;
     align-items: center;
 }
+
 .text4 {
     margin-left: 20px;
     color: white;
 
     font-size: 16px;
 }
+
 .clock {
     max-width: 20px;
     max-height: 20px;
 }
+
 .imdb {
     max-width: 35px;
-    max-height: 17,5px;
+    max-height: 17.5px;
 
     margin-left: 34px;
 }
+
 .text5 {
     font-size: 24px;
     color: white;
 
     margin-left: 12px;
 }
+
 .text6 {
     font-size: 16px;
     color: white;
@@ -183,29 +178,28 @@ body {
     gap: 15px;
     text-align: center;
 
-    
     align-items: center;
 }
-
 
 .data-text {
     display: flex;
 }
+
 .text7 {
     color: white;
 
     font-size: 16px;
-
-    
 }
+
 .text7-1 {
     color: white;
-    
-    margin-left: 78px ;
+
+    margin-left: 78px;
     margin-bottom: 20px;
 
     font-size: 16px;
 }
+
 .text7-2 {
     color: white;
     margin-left: 430px;
@@ -214,17 +208,17 @@ body {
 
     font-size: 16px;
 }
+
 .text-flex {
     display: flex;
 }
 
 .block {
-    
     width: 90px;
     height: 90px;
 
     border: 2px solid grey;
-    
+
     color: white;
     line-height: 1px;
     border-radius: 8%;
@@ -234,19 +228,22 @@ body {
     background-color: #fe8e05;
     color: #621402;
 
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .month {
-font-size: 16px;
+    font-size: 16px;
 }
+
 .dates {
-font-size: 30px;
-font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
+
 .day {
-font-size: 19px;
+    font-size: 19px;
 }
+
 .text-column {
     display: flex;
     flex-flow: column;
@@ -284,6 +281,7 @@ font-size: 19px;
 
     font-size: 16px;
 }
+
 .select-2 {
     width: 108px;
     height: 60px;
@@ -314,9 +312,8 @@ font-size: 19px;
     fill: white;
     opacity: 50%;
 
-    cursor:pointer;
+    cursor: pointer;
 }
-
 
 .Not-booked:hover {
     opacity: 50%;
@@ -324,9 +321,8 @@ font-size: 19px;
     cursor: pointer;
 }
 
-
 .scheme path.booked {
-    fill:white;
+    fill: white;
     opacity: 0.05;
 
     cursor: not-allowed;
@@ -336,13 +332,11 @@ font-size: 19px;
     cursor: not-allowed;
 }
 
-
 .legenda.legenda-svobodno.legenda-label path.booked:hover {
     opacity: 50%;
     fill: white;
     cursor: pointer;
 }
-
 
 .svobodno-cube {
     width: 26px;
@@ -379,8 +373,7 @@ path:active {
     fill: rgb(254, 142, 5);
 }
 
-.scheme-zal{
-
+.scheme-zal {
     width: 100%;
     max-width: 1170px;
     height: 724px;
@@ -389,17 +382,15 @@ path:active {
     box-sizing: border-box;
     border-radius: 10px;
     background-color: rgba(36, 36, 36, 0.18);
-
 }
 
 .hr {
     width: 100%;
     max-width: 1022px;
     margin: 0 auto;
-    
+
     opacity: 50%;
 }
-
 
 .legenda {
     display: flex;
@@ -408,6 +399,7 @@ path:active {
     margin-left: 70px;
     margin-top: 25px;
 }
+
 .legenda-label {
     display: flex;
     align-items: center;
@@ -417,7 +409,7 @@ path:active {
 
 .legenda-text-1,
 .legenda-text-3 {
-    color:white;
+    color: white;
     opacity: 50%;
 }
 
@@ -443,8 +435,9 @@ path:active {
     color: white;
     font-size: 18px;
 }
+
 .cena {
-    color:white;
+    color: white;
     font-size: 52px;
 }
 
@@ -458,25 +451,24 @@ path:active {
     width: 254px;
     height: 69px;
 
-    background-color: #FE8E05;
+    background-color: #fe8e05;
 
     border-radius: 5px;
 
     cursor: pointer;
-
 }
+
 .oplata-text {
     display: flex;
     justify-content: center;
 
     padding: 24px;
 
-    color:white;
+    color: white;
     font-size: 18px;
 }
 
 .oplata-button-container {
-    
     margin-top: 12px;
 }
 
@@ -503,7 +495,7 @@ path:active {
     padding: 30px 20px;
     z-index: 999;
     transform: translateX(-100%);
-    transition: transform 0.4s cubic-bezier(.85,1.27,0,.87);
+    transition: transform 0.4s cubic-bezier(0.85, 1.27, 0, 0.87);
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -516,7 +508,7 @@ path:active {
 .mobile-user {
     margin: 0;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .nav-list {
@@ -563,24 +555,26 @@ path:active {
     transform-origin: left center;
 }
 
-.burger-checkbox:checked ~ .burger-icon span {
+.burger-checkbox:checked~.burger-icon span {
     background-color: #fe8e05;
 }
-.burger-checkbox:checked ~ .burger-icon span:nth-child(1) {
+
+.burger-checkbox:checked~.burger-icon span:nth-child(1) {
     transform: rotate(45deg);
 }
-.burger-checkbox:checked ~ .burger-icon span:nth-child(2) {
+
+.burger-checkbox:checked~.burger-icon span:nth-child(2) {
     opacity: 0;
     transform: translateX(-10px);
 }
-.burger-checkbox:checked ~ .burger-icon span:nth-child(3) {
+
+.burger-checkbox:checked~.burger-icon span:nth-child(3) {
     transform: rotate(-45deg);
 }
 
-.burger-checkbox:checked ~ .mobile-nav {
+.burger-checkbox:checked~.mobile-nav {
     transform: translateX(0);
 }
-
 
 /*  _____________________________________________________________________НОУТБУК 1120px____*/
 @media screen and (max-width: 1120px) {
@@ -663,7 +657,7 @@ path:active {
         margin-bottom: 10px;
     }
 
-    .text7-1, 
+    .text7-1,
     .text7-2 {
         margin: 0;
         font-size: 14px;
@@ -715,10 +709,8 @@ path:active {
     }
 }
 
-
 /*  _____________________________________________________________________ПЛАНШЕТ 768px____*/
 @media screen and (max-width: 768px) {
-
     .header-container {
         display: none;
     }
@@ -733,7 +725,7 @@ path:active {
 
     .nav {
         width: 100%;
-        order: 3;               
+        order: 3;
     }
 
     .menu {
@@ -816,10 +808,16 @@ path:active {
 
     .text1 {
         font-size: 20px;
-        margin-top: 50px; 
+        margin-top: 50px;
     }
-    .text2 { font-size: 28px; }
-    .text3 { font-size: 15px; }
+
+    .text2 {
+        font-size: 28px;
+    }
+
+    .text3 {
+        font-size: 15px;
+    }
 
     .vsego {
         display: flex;
@@ -907,9 +905,17 @@ path:active {
         height: 70px;
     }
 
-    .month { font-size: 13px; }
-    .dates { font-size: 22px; }
-    .day   { font-size: 15px; }
+    .month {
+        font-size: 13px;
+    }
+
+    .dates {
+        font-size: 22px;
+    }
+
+    .day {
+        font-size: 15px;
+    }
 
     .text-column {
         gap: 18px;
@@ -983,7 +989,6 @@ path:active {
     }
 }
 
-
 /*  _____________________________________________________________________СРЕДНИЙ ТЕЛЕФОН 375px____*/
 @media screen and (max-width: 375px) {
     .container {
@@ -1039,9 +1044,17 @@ path:active {
         height: 62px;
     }
 
-    .month { font-size: 12px; }
-    .dates { font-size: 20px; }
-    .day   { font-size: 13px; }
+    .month {
+        font-size: 12px;
+    }
+
+    .dates {
+        font-size: 20px;
+    }
+
+    .day {
+        font-size: 13px;
+    }
 
     .text-column {
         gap: 16px;
@@ -1103,7 +1116,6 @@ path:active {
         padding: 16px;
     }
 }
-
 
 /*  _____________________________________________________________________НЕБОЛЬШОЙ ТЕЛЕФОН 320px____*/
 @media screen and (max-width: 320px) {
@@ -1188,9 +1200,17 @@ path:active {
         height: 55px;
     }
 
-    .month { font-size: 11px; }
-    .dates { font-size: 18px; }
-    .day   { font-size: 12px; }
+    .month {
+        font-size: 11px;
+    }
+
+    .dates {
+        font-size: 18px;
+    }
+
+    .day {
+        font-size: 12px;
+    }
 
     .text-column {
         gap: 14px;
@@ -1268,32 +1288,32 @@ path:active {
    ШИРОКИЕ ЭКРАНЫ, больше 1440px)
    ======================================================== */
 @media screen and (min-width: 1441px) {
-    
-    
     .container {
         max-width: 1320px;
     }
 
-    
     .scheme-zal {
         max-width: 1320px;
         height: 814px;
     }
 
-    
-    .text1 { 
+    .text1 {
         font-size: 28px;
-     }
-    .text2 { 
-        font-size: 42px; 
     }
-    .text3 { 
-        font-size: 18px; 
+
+    .text2 {
+        font-size: 42px;
     }
-    .text5 { 
-        font-size: 28px; 
+
+    .text3 {
+        font-size: 18px;
     }
-    .text6 { 
+
+    .text5 {
+        font-size: 28px;
+    }
+
+    .text6 {
         font-size: 18px;
     }
 }
